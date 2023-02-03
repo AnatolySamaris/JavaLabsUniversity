@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class ThisClassMUSTWorkInRightWayIHope {
+    public static void main(String[] args) {
+        while (true) {
+            Scanner ItCanReadYourInput = new Scanner(System.in);
+            System.out.println("Please, enter two pretty numbers :3");
+            try {
+                double FirstPrettyNumber = ItCanReadYourInput.nextDouble();
+                double SecondPrettyNumber = ItCanReadYourInput.nextDouble();
+
+                System.out.println("Wow! You've entered two pretty numbers! Here's a sum of them:");
+                System.out.println(FirstPrettyNumber + SecondPrettyNumber);
+                break;
+            } catch (Exception e) {
+                System.out.println("NO! NO! NOOOOOOOOOO00000000000000000000000000000000000000000!");
+            }
+        }
+
+    }
+}
